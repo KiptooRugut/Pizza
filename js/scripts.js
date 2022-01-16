@@ -13,3 +13,21 @@ function validatePick() {
     let selectedDelivery = parseFloat(document.getElementById("pick").value);
 
     const pickDelivery = new Total(selectedSize, selectedCrust, selectedToppings, selectedDelivery);
+
+    var cost = pickDelivery.size + pickDelivery.crust + pickDelivery.topping + pickDelivery.delivery
+    let totalCost = cost * quantity;
+
+    if (selectedCrust == "" || selectedToppings == "" || selectedSize == "" || quantity == "") {
+        $(".alert").show();
+    } else {
+        $(".order-form").hide();
+        $(".summary").show();
+        document.getElementById("itemQuantity").innerHTML = quantity;
+        document.getElementById("itemSize").innerHTML = selectedSize;
+        document.getElementById("itemCrust").innerHTML = selectedCrust;
+        document.getElementById("itemTopping").innerHTML = selectedToppings;
+        document.getElementById("totalValue").innerHTML = totalCost;
+
+    }
+
+}
