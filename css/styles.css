@@ -178,3 +178,15 @@ button {
     background-color: #0274d8c9;
     width: 400px;
 }
+
+table {
+    width: 100%;
+}
+
+th {
+    text-align: left;
+}
+
+.tableHeader {
+    border-bottom: 2px solid whitesmoke;
+}
