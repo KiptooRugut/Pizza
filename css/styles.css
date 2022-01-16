@@ -159,3 +159,8 @@ input,
 button {
     margin-top: 1vh;
 }
+
+.btn-primary {
+    margin-left: 3%;
+    width: 180px;
+}
