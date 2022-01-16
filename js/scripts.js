@@ -90,3 +90,8 @@ $(document).ready(function() {
             $(".print").hide();
             $(".alert").hide();
             $(".alertDeliver").hide();
+
+            $("#bg-order").on('click', function() {
+                $("#landing").hide();
+                $(".order-form").show();
+            });
