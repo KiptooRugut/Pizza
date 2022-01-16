@@ -115,3 +115,18 @@ h3 {
 .landing>h3>span {
     color: aqua;
 }
+
+.container>h4 {
+    font-size: 40px;
+    color: whitesmoke;
+    text-align: center;
+    margin: 24%;
+    font-family: 'Philosopher', sans-serif;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 20px;
+    transition: 0.6s;
+    background-color: rgba(97, 247, 11, 0.479);
+    border: none;
+    width: 400px;
+}
