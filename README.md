@@ -1,7 +1,6 @@
 # Pizza
-
 ## PIZZA ORDER
-### A website application that generates customer receipt of pizza sales, April 2021
+### A website application that generates receipt of pizza sales, Jan 2022.
 #### By Kiptoo Rugut
 ## Description
 This website takes user inputs, calculates the total cost of pizza which includes delivery cost for those customers who need the product to be deliver at their location. After selection of preferred size, topping, and crust, customer can view a summary of the total cost of what he/she selected and checkout. Here, the data is displayed in a tablev format.
