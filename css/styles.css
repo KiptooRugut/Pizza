@@ -234,3 +234,15 @@ th {
     font-weight: 600;
     background-color: teal;
 }
+
+#pick,
+#deliver {
+    border: 1px solid whitesmoke;
+    transition: 0.6s;
+}
+
+#pick:hover,
+#deliver:hover {
+    box-shadow: 0px 0px 3px 4px;
+    background-color: teal;
+}
