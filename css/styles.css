@@ -145,3 +145,11 @@ h3 {
 .order-form {
     margin: 15vh 25vh 0vh 10vh;
 }
+
+.form-select {
+    width: 400px;
+}
+
+.form-control {
+    width: 400px;
+}
