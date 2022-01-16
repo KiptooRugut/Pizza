@@ -105,3 +105,14 @@ $(document).ready(function() {
                     $(".summary").hide();
                 }
             });
+
+            $("#deliver").on('click', function() {
+
+                if (validateDeliver() != NaN || validateDeliver() != null) {
+                    prompt("Provide your location")
+                    validateDeliver();
+                } else {
+                    $(".order-form").show();
+                    $(".summary").hide();
+                }
+            });
