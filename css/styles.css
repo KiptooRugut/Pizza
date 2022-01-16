@@ -190,3 +190,17 @@ th {
 .tableHeader {
     border-bottom: 2px solid whitesmoke;
 }
+
+.checkOut {
+    width: 50%;
+    border: 1px solid white;
+    font-weight: 600;
+    transition: 0.5s;
+    margin: 5vh 15vh 0vh 15vh;
+}
+
+.checkOut:hover {
+    box-shadow: 0px 0px 2px 4px white;
+    text-transform: uppercase;
+    font-weight: 700;
+}
