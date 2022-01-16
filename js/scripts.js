@@ -83,36 +83,56 @@ var noInput = "Kindly provide all fields";
 var confirmTransport = "Are you sure you don't need delivery?";
 
 $(document).ready(function() {
-            $("#bg-order").addClass("order");
+    $("#bg-order").addClass("order");
+    $(".summary").hide();
+    $(".receipt").hide();
+    $(".order-form").hide();
+    $(".print").hide();
+    $(".alert").hide();
+    $(".alertDeliver").hide();
+
+    $("#bg-order").on('click', function() {
+        $("#landing").hide();
+        $(".order-form").show();
+    });
+
+    $("#pick").on('click', function() {
+
+        if (validatePick() != NaN) {
+            validatePick();
+        } else {
+            $(".order-form").show();
             $(".summary").hide();
-            $(".receipt").hide();
-            $(".order-form").hide();
-            $(".print").hide();
-            $(".alert").hide();
-            $(".alertDeliver").hide();
+        }
+    });
 
-            $("#bg-order").on('click', function() {
-                $("#landing").hide();
-                $(".order-form").show();
-            });
+    $("#deliver").on('click', function() {
 
-            $("#pick").on('click', function() {
+        if (validateDeliver() != NaN || validateDeliver() != null) {
+            prompt("Provide your location")
+            validateDeliver();
+        } else {
+            $(".order-form").show();
+            $(".summary").hide();
+        }
+    });
 
-                if (validatePick() != NaN) {
-                    validatePick();
-                } else {
-                    $(".order-form").show();
-                    $(".summary").hide();
-                }
-            });
+    $(".checkOut").on('click', function() {
+        $(".order-form").show();
+        $(".receipt").show();
+        $(".summary").hide();
+        $(".print").show();
+        $(".alert").hide();
+        $(".alertDeliver").hide();
+        checkOut();
+    });
 
-            $("#deliver").on('click', function() {
+    $(".print").on('click', function() {
+        window.print();
+    });
 
-                if (validateDeliver() != NaN || validateDeliver() != null) {
-                    prompt("Provide your location")
-                    validateDeliver();
-                } else {
-                    $(".order-form").show();
-                    $(".summary").hide();
-                }
-            });
+    $("p.homeLink").on("click", function() {
+        location.reload();
+    });
+
+});
