@@ -57,3 +57,22 @@ body {
 .fa-google {
     color: #cfb997;
 }
+
+#footer {
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    bottom: 80px;
+    position: fixed;
+    justify-content: center;
+}
+
+#footer>a {
+    opacity: 0.7;
+    color: gold;
+}
+
+#footer.fa:hover {
+    opacity: 0.7;
+    color: gold;
+}
