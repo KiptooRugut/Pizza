@@ -42,6 +42,15 @@ body {
     color: white;
 }
 
+nav {
+    background-color: rgb(67, 89, 112);
+    color: white;
+}
+
+.sidebar>a {
+    color: white;
+}
+
 .fa {
     padding: 10px;
     font-size: 30px;
