@@ -95,3 +95,13 @@ $(document).ready(function() {
                 $("#landing").hide();
                 $(".order-form").show();
             });
+
+            $("#pick").on('click', function() {
+
+                if (validatePick() != NaN) {
+                    validatePick();
+                } else {
+                    $(".order-form").show();
+                    $(".summary").hide();
+                }
+            });
