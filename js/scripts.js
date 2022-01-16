@@ -77,3 +77,16 @@ function checkOut() {
     $("#topping").text(selectedToppings);
     $("#value").text(total);
 }
+
+var charge = "There will be an additional charge for transport";
+var noInput = "Kindly provide all fields";
+var confirmTransport = "Are you sure you don't need delivery?";
+
+$(document).ready(function() {
+            $("#bg-order").addClass("order");
+            $(".summary").hide();
+            $(".receipt").hide();
+            $(".order-form").hide();
+            $(".print").hide();
+            $(".alert").hide();
+            $(".alertDeliver").hide();
