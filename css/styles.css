@@ -111,3 +111,7 @@ h3 {
     font-family: 'Monoton', cursive;
     color: #FFCC00;
 }
+
+.landing>h3>span {
+    color: aqua;
+}
