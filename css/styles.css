@@ -41,3 +41,19 @@ body {
     background-color: #555;
     color: white;
 }
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa-facebook,
+.fa-twitter,
+.fa-linkedin,
+.fa-google {
+    color: #cfb997;
+}
