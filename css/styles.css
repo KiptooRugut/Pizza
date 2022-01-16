@@ -164,3 +164,17 @@ button {
     margin-left: 3%;
     width: 180px;
 }
+
+.order:hover {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin-bottom: 2vh;
+    font-family: 'Philosopher', sans-serif;
+    box-shadow: 0px 0px 3px 5px rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 1vh;
+    border: 2px solid rgba(255, 255, 255, 0.671);
+    background-color: #0274d8c9;
+    width: 400px;
+}
