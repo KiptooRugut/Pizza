@@ -141,3 +141,7 @@ h3 {
 #deliveryReceipt {
     color: white;
 }
+
+.order-form {
+    margin: 15vh 25vh 0vh 10vh;
+}
