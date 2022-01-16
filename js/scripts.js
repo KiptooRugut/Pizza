@@ -63,3 +63,17 @@ function validateDeliver() {
         $("#totalValue").text(totalCost);
     }
 }
+
+function checkOut() {
+    let selectedCrust = parseFloat(document.getElementById("pizza-crust").value);
+    let selectedToppings = parseFloat(document.getElementById("pizza-toppings").value);
+    let selectedSize = parseFloat(document.getElementById("pizza-size").value);
+    let selectedDelivery = parseFloat(document.getElementById("pick").value);
+    let quantity = document.getElementById("pizzaNumber").value;
+    let total = (selectedCrust + selectedToppings + selectedSize + selectedDelivery) * quantity;
+    $("#quantity").text(quantity);
+    $("#size").text(selectedSize);
+    $("#crust").text(selectedCrust);
+    $("#topping").text(selectedToppings);
+    $("#value").text(total);
+}
