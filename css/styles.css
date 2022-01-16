@@ -204,3 +204,10 @@ th {
     text-transform: uppercase;
     font-weight: 700;
 }
+
+.receipt {
+    margin-top: 10vh;
+    background-color: rgba(128, 128, 128, 0.473);
+    border: 2px solid white;
+    padding: 3%;
+}
