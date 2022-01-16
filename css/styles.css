@@ -92,3 +92,15 @@ nav {
     position: fixed;
     text-align: center;
 }
+
+.container>h1,
+h3 {
+    text-align: center;
+}
+
+.container>h1 {
+    font-size: 130px;
+    padding: 10vh 0vh 0vh 0vh;
+    color: white;
+    font-family: 'Bungee Shade', cursive;
+}
