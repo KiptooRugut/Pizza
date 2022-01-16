@@ -76,3 +76,10 @@ body {
     opacity: 0.7;
     color: gold;
 }
+
+.copyright {
+    color: white;
+    bottom: 0px;
+    position: fixed;
+    text-align: center;
+}
