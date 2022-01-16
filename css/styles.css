@@ -211,3 +211,11 @@ th {
     border: 2px solid white;
     padding: 3%;
 }
+
+.summary {
+    margin-top: 12vh;
+    background-color: rgba(128, 128, 128, 0.473);
+    border: 2px solid white;
+    padding: 3%;
+    border-radius: 5px;
+}
