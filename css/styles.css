@@ -130,3 +130,10 @@ h3 {
     border: none;
     width: 400px;
 }
+
+.alert,
+.alertDeliver,
+.tableHeader,
+.order-form {
+    font-size: 20px;
+}
