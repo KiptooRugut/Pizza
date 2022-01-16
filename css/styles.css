@@ -153,3 +153,9 @@ h3 {
 .form-control {
     width: 400px;
 }
+
+div>select,
+input,
+button {
+    margin-top: 1vh;
+}
