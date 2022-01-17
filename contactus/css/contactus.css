@@ -1,5 +1,5 @@
 body {
-    background-image: url(/contactus/images/background/pizzapic2.jpg);
+    background-image: url(../images/background/pizzapic2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 100px;
@@ -13,7 +13,7 @@ body {
     height: 100%;
     top: 0px;
     overflow: hidden;
-    background-image: url(/images/nav/navbackgrpic.jpg);
+    background-image: url(../images/nav/navbackgrpic.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
