@@ -1,12 +1,6 @@
 # Pizza
-<<<<<<< HEAD
-
 ## PIZZA ORDER
-### A website application that generates customer receipt of pizza sales, April 2021
-=======
-## PIZZA ORDER
-### A website application that generates receipt of pizza sales, Jan 2022.
->>>>>>> 8f11f37c5e0f839287e614b1e3f129b8693d128a
+### A website application that generates receipt of pizza, Jan 2022.
 #### By Kiptoo Rugut
 ## Description
 This website takes user inputs, calculates the total cost of pizza which includes delivery cost for those customers who need the product to be deliver at their location. After selection of preferred size, topping, and crust, customer can view a summary of the total cost of what he/she selected and checkout. Here, the data is displayed in a tablev format.
@@ -32,5 +26,5 @@ The project takes one order a a time.
 ## Support and contact details
 Kindly let us know your feedbacks and concerns and you can also ask questions through our email address mccrug97@gmail.com.
 ### License
-This is under the [MIT](https://github.com/KiptooRugut/Pizza/blob/master/LICENSEE) license
+This is under the [MIT](LICENSE) license
 Copyright (c) 2022 Kiptoo Rugut
